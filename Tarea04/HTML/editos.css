@@ -1,0 +1,60 @@
+* {
+    margin: 0; box-sizing: border-box;
+  }
+  .centro {
+      background-color:skyblue;
+      text-align:center;
+      padding:10px;
+      height:6.5rem;
+  }
+  .cabeza1 {
+      background-color:brown;
+      padding:15px;
+      text-align:center;
+      height: 6.5rem;
+  }
+  .cabeza2 {
+    background-color: orange;
+    height: 20rem;
+    padding:15px;
+    text-align:center;
+  }
+  .centro1 {
+    background-color: green;
+    float:left;
+    width:33.333333%;
+    height: 20rem;
+    padding:15px;
+    position:relative;
+  }
+  .centro2 {
+    background-color: red;
+    float:right;
+    width:33.333333%;
+    height: 20rem;
+    padding:15px;
+    position:relative;
+  }
+  .centro3 {
+    background-color: yellow;
+    float:right;
+    width:33.333333%;
+    height: 20rem;
+    padding:15px;
+    position:relative;
+  }
+  .pie {
+      background-color: blue;
+      width:100%;
+      height: 6.5rem;
+      padding:15px;
+      position: relative;
+      float: right;
+  }
+  
+  @media only screen and (max-width:620px) {
+    /* For mobile phones: */
+    .centro, .cabeza1, .cabeza2, .centro1, .centro2, .centro3, .pie {
+      width:100%;
+    }
+  }
