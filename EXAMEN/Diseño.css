@@ -1,0 +1,235 @@
+body{
+    background-color: rgb(173, 142, 142);
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}  
+*{
+    margin: 0; padding: 0; box-sizing: border-box; font-size: 1;
+}
+header{
+    background-color: rgb(107, 47, 47);
+    width: 118rem;
+    height: 6rem;
+    margin: 1rem;
+    margin-bottom: 0rem;
+}
+.CajaNegraSupIzquierda{
+    background-color: rgb(0, 0, 0);
+    width: 20rem;
+    height: 6rem;
+    float: left;
+}
+.Sistemas{
+    width: 15rem;
+    height: 4rem;
+    font-size: 2.5rem;
+    color: rgb(255, 255, 255);
+    float: right;
+    text-align: center;
+    text-align: left;
+    margin-top: 1.5rem;
+}
+.ImagenEngranaje{
+    width: 4rem;
+    height: 4rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.CajaGrisSupDerecha{
+    background-color: rgb(88, 88, 88);
+    width: 98rem;
+    height: 6rem;
+    float: right;
+}
+.Correo{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: 1.5rem;
+    margin-right: 2rem;
+    float: right;
+}
+.Calendario{
+    width: 2.1rem;
+    height: 2.1rem;
+    margin-top: 1.5rem;
+    margin-right: 2rem;
+    float: right;
+}
+.Campana{
+    width: 2.1rem;
+    height: 2.1rem;
+    margin-top: 1.5rem;
+    margin-right: 2rem;
+    float: right;
+}
+.User{
+    width: 2.1rem;
+    height: 2.1rem;
+    margin-top: 1.5rem;
+    margin-right: 2rem;
+    float: right;
+}
+.CajaGrandeAbajo{
+    background-color: rgb(168, 114, 13);
+    width: 118rem;
+    height: 55rem;
+    margin-left: 1rem;
+}
+.CajaNaranjaIzquierda{
+    background-color: rgb(255, 255, 255);
+    width: 20rem;
+    height: 55rem;
+    float: left;
+}
+.dashboard {
+    background-color: orange;
+    margin-bottom: 0.1rem;
+    width: 20rem;
+    height: 5rem;
+}
+.laFlames {
+    background-color: orange;
+    margin-bottom: 0.1rem;
+    width: 20rem;
+    height: 5rem;
+}
+.Tabs {
+    background-color: orange;
+    margin-bottom: 0.1rem;
+    width: 20rem;
+    height: 5rem;
+}
+.ResponsiveTables{
+    background-color: orange;
+    margin-bottom: 0.1rem;
+    width: 20rem;
+    height: 5rem;
+} 
+.Forms{
+    background-color: orange;
+    margin-bottom: 0.1rem;
+    width: 20rem;
+    height: 5rem;
+} 
+.ImptyPage{
+    background-color: orange;
+    margin-bottom: 0.1rem;
+    width: 20rem;
+    height: 5rem;
+}
+.Cajapequeña{
+    background-color: orange;
+    margin-bottom: 0.1rem;
+    width: 20rem;
+    height: 24.4rem;
+}
+.CajaBlancaDerecha{
+    background-color: white;
+    width: 98rem;
+    height: 55rem;
+    float: right;
+}
+.palabradashboard{
+    width: 15rem;
+    height: 4rem;
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.308);
+    float: left;
+    text-align: center;
+    text-align: left;
+    margin-top: 1.5rem;
+}
+.dashboardcuadrito{
+    margin-left: 1rem;
+    width: 96rem;
+    height: 4rem;
+}
+.arribacentro{
+    margin-left: 1rem;
+    width: 96rem;
+    height: 5rem;
+    border: 0.1rem solid rgb(0, 0, 0);
+}
+.cuadro1{
+    margin-left: 1rem;
+    width: 23.25rem;
+    height: 6rem;
+    border: 0.1rem solid rgb(0, 0, 0);
+    margin-top: 1rem;
+    float: left;
+}
+.cuadro2{
+    margin-left: 1rem;
+    width: 23.25rem;
+    height: 6rem;
+    border: 0.1rem solid rgb(0, 0, 0);
+    margin-top: 1rem;
+    float: left;
+}
+.cuadro3{
+    margin-left: 1rem;
+    width: 23.25rem;
+    height: 6rem;
+    border: 0.1rem solid rgb(0, 0, 0);
+    margin-top: 1rem;
+    float: left;
+}
+.cuadro4{
+    margin-left: 1rem;
+    width: 23.25rem;
+    height: 6rem;
+    border: 0.1rem solid rgb(0, 0, 0);
+    margin-top: 1rem;
+    float: left;
+}
+.cajaabajo1{
+    margin-left: 1rem;
+    width: 42rem;
+    height: 16rem;
+    border: 0.1rem solid rgb(0, 0, 0);
+    margin-top: 1rem;
+    float: left;
+}
+.cajaabajo2{
+    margin-left: 1rem;
+    width: 53rem;
+    height: 16rem;
+    border: 0.1rem solid rgb(0, 0, 0);
+    margin-top: 1rem;
+    float: left;
+}
+.cajafin1{
+    margin-left: 1rem;
+    width: 75rem;
+    height: 17rem;
+    border: 0.1rem solid rgb(0, 0, 0);
+    margin-top: 1rem;
+    float: left;
+}
+.cajafin2{
+    margin-left: 1rem;
+    width: 20rem;
+    height: 17rem;
+    border: 0.1rem solid rgb(0, 0, 0);
+    margin-top: 1rem;
+    float: left;
+}
+.copy{
+    margin-left: 1rem;
+    width: 96rem;
+    height: 2rem;
+    margin-top: 1rem;
+    float: left;
+}
+.palabracopy{
+    width: 20rem;
+    height: 4rem;
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.308);
+    float: left;
+    text-align: center;
+    text-align: left;
+    margin-top: 1.5rem;
+}
+
