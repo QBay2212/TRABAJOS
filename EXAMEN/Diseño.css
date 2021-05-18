@@ -76,6 +76,60 @@ header{
     height: 55rem;
     margin-left: 1rem;
 }
+#dashboard{
+    width: 15rem;
+    height: 4rem;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    float: right;
+    text-align: center;
+    margin-top: 1.5rem; 
+}
+#laFlames{
+    width: 15rem;
+    height: 4rem;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    float: right;
+    text-align: center;
+    margin-top: 1.5rem; 
+}
+#Tabs{
+    width: 15rem;
+    height: 4rem;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    float: right;
+    text-align: center;
+    margin-top: 1.5rem; 
+}
+#ResponsiveTables{
+    width: 15rem;
+    height: 4rem;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    float: right;
+    text-align: center;
+    margin-top: 1.5rem; 
+}
+#Forms{
+    width: 15rem;
+    height: 4rem;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    float: right;
+    text-align: center;
+    margin-top: 1.5rem; 
+}
+#ImptyPage{
+    width: 15rem;
+    height: 4rem;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    float: right;
+    text-align: center;
+    margin-top: 1.5rem; 
+}
 .CajaNaranjaIzquierda{
     background-color: rgb(255, 255, 255);
     width: 20rem;
