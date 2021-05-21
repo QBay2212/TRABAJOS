@@ -20,8 +20,8 @@
         <section class="Formulario">
             <div class="CuadradoAgregar">
                 <div class="CuadradoCentrar">
-                    <input type="date" placeholder="Fecha" class="caja1" id="fecha">
-                    <select name=cliente" id="cliente" class="caja2">
+                    <input type="date" placeholder="Fecha" class="caja1" id="cliente">
+                    <select name=combo" id="doc" class="caja2">
                         <option value="0"></option>
                         <option value="Nuevo">Nuevo</option>
                         <option value="ANTIGUO">Antiguo</option>
@@ -32,8 +32,8 @@
                         <option value="LECHE">Leche</option>
                         <option value="DETERGENTE">Detergente</option>
                     </select>
-                    <input type="number" placeholder="Precio" class="caja4" id="precio">
-                    <input type="number" placeholder="Cantidad" class="caja5" id="cantidad">
+                    <input type="text" placeholder="Precio" class="caja4" id="precio">
+                    <input type="text" placeholder="Cantidad" class="caja5" id="cant">
                     <button class="boton" onclick="guardar()">Registrar</button>
                 </div>
             </div>
@@ -47,7 +47,7 @@
                                 <th>Producto</th>
                                 <th>Precio</th>
                                 <th>Cantidad</th>
-                                <th>Subtotal</th>
+                                <th name='subtotal'>Subtotal</th>
                                 <th>Accion</th>
                             </tr>
                         </thead >
