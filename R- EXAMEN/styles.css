@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    
+}
+.Titulo{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 14rem;
+
+}
+.CuadradoNegro{
+    border: 2px solid rgb(0, 0, 0);
+    width: 8%;
+    height: 8rem;
+    float: left;
+    margin-top: 5rem;       
+    margin-left: 5rem;
+}
+.imagen{
+    width: 7rem;
+    height: 7rem;
+    margin-top: 0.5rem;
+    margin-left: 1.3rem;
+}
+.Formulario{
+    background-color: rgb(250, 250, 250);
+    width: 100%;
+    height: 53rem;
+    margin: 0 auto;
+}
+.CuadradoAgregar{
+    border: 2px solid rgb(0, 0, 0);
+    width: 28%;
+    height: 45rem;
+    float: left;
+    margin-left: 5rem;
+}
+.CuadradoCentrar{
+    border: 0px solid rgb(0, 0, 0);
+    width: 55%;
+    height: 45rem;
+    float: left;
+    margin-left: 6.5rem;
+}
+.ListaPost{
+    border: 2px solid rgb(0, 0, 0);
+    width: 58%;
+    height: 45rem;
+    float: right;
+    margin-right: 5rem;
+}
+.caja1{
+    border: none;
+    border: 2px solid rgb(214, 213, 213);
+    height: 3rem;
+    border-radius: 10px;
+    width: 15rem;
+    margin-top: 12.1rem;
+    margin-bottom: 0.8rem;
+    padding: 0 1rem;
+    font-size: 1rem;
+    position: relative;
+}
+.caja2{
+    border: 2px solid rgb(214, 213, 213);
+    height: 3rem;
+    border-radius: 10px;
+    width: 15rem;
+    margin: 0;
+    margin-bottom: 0.8rem;
+    font-size: 1rem;
+    padding: 0.5rem 0.5rem;
+    position: relative;
+    float: bottom;
+}
+.caja3{
+    border: 2px solid rgb(214, 213, 213);
+    height: 3rem;
+    border-radius: 10px;
+    width: 15rem;
+    font-size: 1rem;
+    padding: 0.5rem 0.5rem;
+    margin-bottom: 0.8rem;
+    position: relative;
+}
+.caja4{
+    border: 2px solid rgb(214, 213, 213);
+    height: 3rem;
+    border-radius: 10px;
+    width: 15rem;
+    font-size: 1rem;
+    padding: 0.5rem 0.5rem;
+    margin-bottom: 0.8rem;
+    position: relative;
+}
+.caja5{
+    border: 2px solid rgb(214, 213, 213);
+    height: 3rem;
+    border-radius: 10px;
+    width: 15rem;
+    font-size: 1rem;
+    padding: 0.5rem 0.5rem;
+    margin-bottom: 0.8rem;
+    position: relative;
+}
+.boton{
+    width: 200px;
+    height: 35px;
+    background-color: cornflowerblue;
+    color: white;
+    border:none;
+    border: 3px double rgb(5, 35, 92);
+    border-radius: 5px;
+}
+#table{
+    margin-top: 5rem;
+    width: 90%;
+}
+#table th{
+    background-color: skyblue;
+    height: 3rem;
+}
+.icono1{
+    font-size: 14px;
+    color: red;
+}
+.icono2{
+    font-size: 14px;
+    color: green;
+}
+.accion{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;  
+}
+td{
+    border: 1px solid black;
+}
+
+
+

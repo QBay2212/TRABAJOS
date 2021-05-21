@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="Titulo">
+        <div class="CuadradoNegro">
+            <img class="imagen" src="https://img.icons8.com/ios/452/assassins-creed-logo.png">
+        </div>
+    </section>
+    <center>
+        <section class="Formulario">
+            <div class="CuadradoAgregar">
+                <div class="CuadradoCentrar">
+                    <input type="date" placeholder="Fecha" class="caja1" id="fecha">
+                    <select name=cliente" id="cliente" class="caja2">
+                        <option value="0"></option>
+                        <option value="Nuevo">Nuevo</option>
+                        <option value="ANTIGUO">Antiguo</option>
+                    </select>
+                    <select name=producto" id="prod" class="caja3">
+                        <option value="0"></option>
+                        <option value="ACEITE">Aceite</option>
+                        <option value="LECHE">Leche</option>
+                        <option value="DETERGENTE">Detergente</option>
+                    </select>
+                    <input type="number" placeholder="Precio" class="caja4" id="precio">
+                    <input type="number" placeholder="Cantidad" class="caja5" id="cantidad">
+                    <button class="boton" onclick="guardar()">Registrar</button>
+                </div>
+            </div>
+            <div class="ListaPost">
+                <div class="datos">
+                    <table id="table">
+                        <thead>
+                            <tr>
+                                <th>Fecha</th>
+                                <th>Cliente</th>
+                                <th>Producto</th>
+                                <th>Precio</th>
+                                <th>Cantidad</th>
+                                <th>Subtotal</th>
+                                <th>Accion</th>
+                            </tr>
+                        </thead >
+                        <tbody id="tbd"> 
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <script src="script.js"></script>
+        </section>
+    </center>
+</body>
+
+</html>
