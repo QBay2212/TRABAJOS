@@ -1,0 +1,18 @@
+
+#CajaDummy {
+    padding: 1rem;
+    width: 10rem;
+    border: 0.5rem solid rgb(67, 107, 67);
+    border-radius: 1rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    background-color: rgb(82, 179, 70);
+    justify-content: center;
+    margin: 5rem;
+}
+button {
+    margin-bottom: 0.5rem;
+}
+section {
+    max-width: 30rem;
+}
